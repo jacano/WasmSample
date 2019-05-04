@@ -1,0 +1,14 @@
+﻿<Project Sdk="Mono.WebAssembly.Sdk/0.1.0">
+
+  <PropertyGroup>
+    <MonoWasmLinkMode>None</MonoWasmLinkMode>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="server.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+</Project>
