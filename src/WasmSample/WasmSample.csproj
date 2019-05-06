@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Mono.WebAssembly.Sdk/0.1.0">
 
   <PropertyGroup>
-    <MonoWasmLinkMode>None</MonoWasmLinkMode>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   
@@ -9,6 +8,10 @@
     <Content Include="server.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\LinkerWorkaround.csproj" />
   </ItemGroup>
   
 </Project>
