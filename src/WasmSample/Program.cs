@@ -7,6 +7,8 @@ namespace WasmSample
         public static void Main()
         {
             Console.WriteLine($"Hello wasm!");
+
+            Console.WriteLine($"Done");
         }
     }
 }
